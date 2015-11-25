@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   root"page#index"
 
- # get 'page/hello'
-
+  #get 'page/hello'
+  get 'page/other'
+get 'page/chirag'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
